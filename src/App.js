@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import BinanceChart from './BinanceChart';
 
 function App() {
   return (
@@ -21,5 +22,13 @@ function App() {
     </div>
   );
 }
+
+const App = () => {
+  return (
+    <div>
+      <BinanceChart />
+    </div>
+  );
+};
 
 export default App;
